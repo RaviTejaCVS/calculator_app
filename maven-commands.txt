@@ -1,0 +1,22 @@
+mvn test verify -Dtest=bobchos.bar.api.cucumberOptions.APIRunnerTest
+
+mvn test -Dcucumber.options="--tags @PostOrderAPI"
+
+mvn test -Dcucumber.options="--tags @"$tag""
+
+java -jar jenkins.war -httpPort=8080
+jenkins pwd- 94e5544a989a4e03af6477edb8a19d81
+
+
+passKey Git- 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
+
+
+mvn test -Dtest=bobchos.bar.Test
+
+
+Map<String, Object> responseMap = response.as(HashMap.class);
+
+// Loop through  map and print values
+for (Map.Entry<String, Object> entry : responseMap.entrySet()) {
+    System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+}
